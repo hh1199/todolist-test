@@ -1,0 +1,35 @@
+.action-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  height: 4rem;
+  border: 1px solid #e0e0e0;
+  .content {
+    margin-left: 1rem;
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .action {
+    .btn {
+      border-radius: 0.25rem;
+      color: #ffffff;
+      border: none;
+      padding: 0.25rem 1.25rem;
+      color: #ffffff;
+      margin-left: 1rem;
+    }
+    .left-action {
+      background-color: #2196f3;
+    }
+    .right-action {
+      margin-right: 1rem;
+      background-color: #d9534f;
+    }
+  }
+}

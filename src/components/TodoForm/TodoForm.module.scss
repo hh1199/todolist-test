@@ -1,0 +1,73 @@
+.todo-form {
+  border: 1px solid #e0e0e0;
+  position: relative;
+  padding: 2rem;
+  .close-icon {
+    width: 0.75rem;
+    object-fit: contain;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .form-title {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .form-content {
+    .form-input {
+      height: 2rem;
+      width: 100%;
+    }
+    .form-description-header {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .form-description {
+      height: 3rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .form-content-footer {
+      display: flex;
+      justify-content: space-between;
+      .due-date {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 48%;
+        .due-date-label {
+          font-weight: bold;
+        }
+        .select-date {
+          height: 1.3rem;
+        }
+      }
+      .priority {
+        width: 48%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        .select-priority {
+          height: 1.5rem;
+        }
+        .priority-label {
+          font-weight: bold;
+        }
+      }
+    }
+    .error {
+      margin-top: 1rem;
+      text-align: center;
+      color: red;
+    }
+  }
+  .btn-submit {
+    margin-top: 1rem;
+    height: 2rem;
+    padding: 0.5rem;
+    background-color: #5cb85c;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+  }
+}
